@@ -32,30 +32,36 @@ It took around 11 hours (including yii framework study time) to complete this pr
 
 ## Screenshots
 
-
 **Frontend**
+<br>
+
 ![enter image description here](https://i.ibb.co/80W5KXY/Screenshot-from-2021-02-06-20-20-14.png)
+<br>
+
 Landing Page
 <br>
 
 ![enter image description here](https://i.ibb.co/ZmDs0yL/Screenshot-from-2021-02-06-20-21-10.png)
+<br>
+
 User Auth
 
 <br>
 
 ![enter image description here](https://i.ibb.co/vY23WZg/Screenshot-from-2021-02-06-20-28-02.png)
+<br>
+
 User Validation
 <br>
 
 ![enter image description here](https://i.ibb.co/YtVHJjB/Screenshot-from-2021-02-06-20-23-50.png)
-Order Form
-<br>![enter image description here](https://i.ibb.co/KW4yD8H/Screenshot-from-2021-02-06-20-26-42.png)
-Order Lists
 <br>
 
-
-
-
+Order Form
+<br>![enter image description here](https://i.ibb.co/KW4yD8H/Screenshot-from-2021-02-06-20-26-42.png)
+<br>
+Order Lists
+<br>
 <br>
 <br>
 
@@ -68,20 +74,25 @@ Order Lists
 
 
 ![enter image description here](https://i.ibb.co/1M1V8S0/Screenshot-from-2021-02-06-20-14-45.png)
+<br>
 
 List of customers
 
 <br> 
 
 ![enter image description here](https://i.ibb.co/99Dx0yL/Screenshot-from-2021-02-06-20-14-52.png)
+<br>
+
 Meals Listing
 
 <br> ![enter image description here](https://i.ibb.co/0C4ymd9/Screenshot-from-2021-02-06-20-15-03.png)
+<br>
 
 Meal Opening Days
 <br>
 
 ![enter image description here](https://i.ibb.co/K0s1zfd/Screenshot-from-2021-02-06-20-14-49.png)
+<br>
 
 Orders List
 
