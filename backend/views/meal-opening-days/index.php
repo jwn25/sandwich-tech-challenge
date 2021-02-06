@@ -11,8 +11,6 @@ $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="meal-opening-days-index">
 
-    <h1><?= Html::encode($this->title) ?></h1>
-
     <p>
         <?= Html::a('Create Meal Opening Days', ['create'], ['class' => 'btn btn-success']) ?>
     </p>

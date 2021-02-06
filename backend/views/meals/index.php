@@ -10,10 +10,6 @@ $this->title = 'Meals';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="meals-index">
-
-    <h1><?= Html::encode($this->title) ?></h1>
-
-<p class="test-jwn">HELLO</p>
     <p>
         <?= Html::a('Create Meals', ['create'], ['class' => 'btn btn-success']) ?>
     </p>

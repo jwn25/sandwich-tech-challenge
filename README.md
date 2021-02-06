@@ -1,60 +1,87 @@
-<p align="center">
-    <a href="https://github.com/yiisoft" target="_blank">
-        <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
-    </a>
-    <h1 align="center">Yii 2 Advanced Project Template</h1>
-    <br>
-</p>
+# Subway Sandwich (Technical challenge project)
+**Developed By: Jeevan Dhakal**
+It took around 11 hours (including yii framework study time) to complete this project. 
 
-Yii 2 Advanced Project Template is a skeleton [Yii 2](http://www.yiiframework.com/) application best for
-developing complex Web applications with multiple tiers.
+# Installation Processes
 
-The template includes three tiers: front end, back end, and console, each of which
-is a separate Yii application.
+ 
 
-The template is designed to work in a team development environment. It supports
-deploying the application in different environments.
+ 1. Clone the whole project using ssh or https.  `git clone https://github.com/jwn25/sandwich-tech-challenge.git`
 
-Documentation is at [docs/guide/README.md](docs/guide/README.md).
+ 3. Create database and update your database configuration on `common/config/main-local.php` file
 
-[![Latest Stable Version](https://img.shields.io/packagist/v/yiisoft/yii2-app-advanced.svg)](https://packagist.org/packages/yiisoft/yii2-app-advanced)
-[![Total Downloads](https://img.shields.io/packagist/dt/yiisoft/yii2-app-advanced.svg)](https://packagist.org/packages/yiisoft/yii2-app-advanced)
-[![build](https://github.com/yiisoft/yii2-app-advanced/workflows/build/badge.svg)](https://github.com/yiisoft/yii2-app-advanced/actions?query=workflow%3Abuild)
+        'db' => [
+    		'class' => 'yii\db\Connection',
+    		'dsn' => 'mysql:host=localhost;dbname=database_name',
+    		'username' => 'root',
+    		'password' => '',
+    		'charset' => 'utf8',
 
-DIRECTORY STRUCTURE
--------------------
+ 4. Run all the migrations. `php yii migrate`
+ 5. Setup virtual hosts for both backend and forntend folders (Optional)
+ 6. Project is ready to be checked on `localhost_url/project_folder/frontend` (FRONTEND) and `localhost_url/project_folder/backend` (Backend)
+ 
 
-```
-common
-    config/              contains shared configurations
-    mail/                contains view files for e-mails
-    models/              contains model classes used in both backend and frontend
-    tests/               contains tests for common classes    
-console
-    config/              contains console configurations
-    controllers/         contains console controllers (commands)
-    migrations/          contains database migrations
-    models/              contains console-specific model classes
-    runtime/             contains files generated during runtime
-backend
-    assets/              contains application assets such as JavaScript and CSS
-    config/              contains backend configurations
-    controllers/         contains Web controller classes
-    models/              contains backend-specific model classes
-    runtime/             contains files generated during runtime
-    tests/               contains tests for backend application    
-    views/               contains view files for the Web application
-    web/                 contains the entry script and Web resources
-frontend
-    assets/              contains application assets such as JavaScript and CSS
-    config/              contains frontend configurations
-    controllers/         contains Web controller classes
-    models/              contains frontend-specific model classes
-    runtime/             contains files generated during runtime
-    tests/               contains tests for frontend application
-    views/               contains view files for the Web application
-    web/                 contains the entry script and Web resources
-    widgets/             contains frontend widgets
-vendor/                  contains dependent 3rd-party packages
-environments/            contains environment-based overrides
-```
+## Tools Used
+
+ 1. **Programming Language :** PHP
+ 2. **Framework** Yii2
+ 3. Tools: Gii (For CRUD Operations)
+ 4. Backend template: AdminLte3
+ 5. Design Framework : Boostrap 3  
+
+## Screenshots
+
+
+**Frontend**
+![enter image description here](https://i.ibb.co/80W5KXY/Screenshot-from-2021-02-06-20-20-14.png)
+Landing Page
+<br>
+
+![enter image description here](https://i.ibb.co/ZmDs0yL/Screenshot-from-2021-02-06-20-21-10.png)
+User Auth
+
+<br>
+
+![enter image description here](https://i.ibb.co/vY23WZg/Screenshot-from-2021-02-06-20-28-02.png)
+User Validation
+<br>
+
+![enter image description here](https://i.ibb.co/YtVHJjB/Screenshot-from-2021-02-06-20-23-50.png)
+Order Form
+<br>![enter image description here](https://i.ibb.co/KW4yD8H/Screenshot-from-2021-02-06-20-26-42.png)
+Order Lists
+<br>
+
+
+
+
+<br>
+<br>
+
+
+**Backend**
+![enter image descriptionddfsdfa here](https://i.ibb.co/KWvzf4K/Screenshot-from-2021-02-06-20-12-51.png)
+ Login Page
+<br>
+<br>
+
+
+![enter image description here](https://i.ibb.co/1M1V8S0/Screenshot-from-2021-02-06-20-14-45.png)
+
+List of customers
+
+<br> 
+
+![enter image description here](https://i.ibb.co/99Dx0yL/Screenshot-from-2021-02-06-20-14-52.png)
+Meals Listing
+
+<br> ![enter image description here](https://i.ibb.co/0C4ymd9/Screenshot-from-2021-02-06-20-15-03.png)
+
+Meal Opening Days
+<br>
+
+![enter image description here](https://i.ibb.co/K0s1zfd/Screenshot-from-2021-02-06-20-14-49.png)
+
+Orders List
+
